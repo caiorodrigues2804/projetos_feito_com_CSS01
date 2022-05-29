@@ -1,0 +1,109 @@
+body{
+	background-attachment: fixed;
+	background: rgb(217,160,255);
+background: linear-gradient(90deg, rgba(217,160,255,1) 0%, rgba(255,177,177,1) 50%, rgba(252,194,112,1) 100%);
+	}*{
+	font-family: arial, Helvetica, "Trebuchet MS", sans-serif;
+
+	}
+	 /*INCIO DO CONTAINER*/
+	#container{
+		border: 1px solid black;
+		max-width: 1180px;
+		min-width: 1160px;
+		margin: 40px;
+		background: rgb(0,0,0,0.1);
+	}
+	/*FIM DO CONTAINER*/
+	/*INCIO DA MARCA*/
+	#marca{
+		border: 1px solid #000;
+		height: 150px;
+		float: center;
+	}h1.nome{
+		text-align: center;
+		font-family: "LongHaul";
+		font-size: 4em;
+	}
+	/*FIM DA MARCA*/
+	/* CONFIGURAÇÕES DAS FONTES */
+
+	/*BEBAS*/	
+	@font-face {
+    font-family: 'Bebas';
+    src: url('../fonte/Bebas-Regular.woff2') format('woff2'),
+        url('../fonte/Bebas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-display: swap;
+    font-style: normal;
+
+
+}	
+			/*LongHaul*/
+			@font-face {
+		    font-family: 'LongHaul';
+		    src: url('../fonte/LongHaul') format('woff2'),
+		        url('../fonte/LongHaul.woff') format('woff');
+		    font-weight: normal;
+		    font-display: swap;
+		    font-style: normal;
+}
+
+	/*	FIM DAS CONFIGURAÇÕES DAS FONTES		*/
+	/*INCIO DA NAVEGAÇÃO*/
+ .navegacao ul#navegacao02 {
+	list-style-type: none;
+ } .navegacao ul#navegacao02 a{
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #000;
+ 	font-size: 1.4em;
+  } .navegacao ul#navegacao02 li a{
+  		border: 1px double #000;
+  		width: 200px;
+  		padding: 4px;
+  } .navegacao ul#navegacao02 li a:hover{
+  	text-indent: 10px;
+  	color: #fff;
+  	border: 1px double #fff;
+  	transition: 0.3s;
+  }
+  /*MARCAÇÃO DE TEXTOS*/
+  #home #navegacao02 .home a,
+  #sobre #navegacao02 .sobre a,
+  #contatos #navegacao02 .contatos a,
+  #localizacao #navegacao02 .localizacao a{
+  	text-indent: 10px;
+  	color: #fff;
+  	border: 1px double #fff;
+  }
+/*	FIM DE MARCAÇÃO DE TEXTOS*/
+
+	#q1 /*Conteudo*/ {
+		border: 1px double black;
+		width: 200px;
+		height: 400px;
+		float: right;
+
+} 
+	#q2 /*Conteudo Secundário*/ {
+		border: 1px double black;
+		width: 300px;
+		height: 400px;
+		float: right;
+
+}  
+	#q3 /*Conteudo central*/ {
+		border: 1px double black;
+		width: 400px;
+		height: 400px;
+		float: right;
+
+}
+/* RODAPÉ */
+footer #rodape{
+ 		border: 1px double black;
+ 		clear: both;
+ }
+
+

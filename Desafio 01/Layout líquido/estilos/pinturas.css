@@ -1,0 +1,46 @@
+*{
+	font-family: arial, Helvetica, sans-serif;
+}body{
+
+	background-attachment: fixed;
+	background: linear-gradient(#B9B8B8,#9B9B9B,#848484,#ACACAC);
+	background: -moz-linear-gradient(#B9B8B8,#9B9B9B,#848484,#ACACAC);
+	background: -webkit-linear-gradient(#B9B8B8,#9B9B9B,#848484,#ACACAC);
+	background: -o-linear-gradient(#B9B8B8,#9B9B9B,#848484,#ACACAC);
+
+	} #container{
+/*
+	margin-left: 10%;
+	margin-right: 10%; */
+	min-width: 40%;
+	max-height: 100%;
+	height: 530px;
+	margin-top: 30px;
+	border: 2px solid red;
+}#marca{
+		float: center;
+		border: 2px solid red;
+		width: 100%;
+		height: 100px;
+}  #conteudo{
+	float: right;
+
+	border: 2px solid red;
+	height: 400px;
+	width: 30%;
+	min-width: 20%;
+} #rodape{
+	clear: both;
+	border: 2px solid red;
+}   #lateral{
+	border: 2px solid red;
+	float: left;
+	height: 400px;
+	width: 20%;
+	min-width: 10%;
+} #navegacao{
+	border: 2px solid red;
+	float:center;
+	width: 69,5%;
+	height:400px;
+}

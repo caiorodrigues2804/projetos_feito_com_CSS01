@@ -1,0 +1,89 @@
+body{
+	background-attachment: fixed;
+	background-image: linear-gradient(96deg, #ADF2A8,#8FC48B, #73A170, #97D293);
+	background-image: -o-linear-gradient(96deg, #ADF2A8,#8FC48B, #73A170, #97D293);
+	 background-image: -moz-linear-gradient(96deg, #ADF2A8,#8FC48B, #73A170, #97D293);
+	 background-image: -webkit-linear-gradient(96deg, #ADF2A8,#8FC48B, #73A170, #97D293);	 
+} @font-face{
+	font-family: BEBAS;
+	src: url(../fontes/BEBAS-Regular.woff);
+} h1{
+	font-family: BEBAS;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 20px 20px rgba(0,0,0,0.10)
+}* /*FORMATAÇÃO */ {
+
+	font-family: arial, Helvetica, "Trebuchet MS", sans-serif;
+
+
+	} /* NAVEGAÇÃO */
+   .navegacao02 ul{
+   	float: left;
+   	list-style-type: none;
+   	text-transform:lowercase;
+
+   }.navegacao02 ul li{
+
+   	line-height: 40px;
+   	text-indent: 2em;
+   	width: 200px;
+   	background: url(../imagens/menu.png) no-repeat left top;
+   	 transition: 0.2s
+   	} 
+   	.navegacao02 ul a{
+   		display: inline;
+   	 text-decoration: none;
+   	 color: #000
+
+   } .navegacao02 ul li:hover{
+   	 background: url(../imagens/menu.png) no-repeat right top;
+   	 transition: 0.2s
+   } h1+h3{
+   	 text-align: center;
+   } h3.subtitulo{
+   		font-size: 30px;
+   } /* MARCADOR DE PÁGINAS */
+
+    #home #navegacao .home a,
+	#sobre #navegacao .sobre a,
+	#contatos #navegacao .contatos a,
+	#questionario #navegacao .questionario a{
+	color: #fff;
+
+ 	
+		
+		}footer{
+			clear: both;
+		} input{
+			padding: 5px;
+			width: 200px
+			 
+		} #button{
+			text-align: center;
+			margin-left: 50px;
+			width: 200px;
+
+
+			} /* INCIO DO BACKGROUND */
+		  #caioba{
+		  	border-radius: 10px;
+		  	-o-border-radius: 10px;
+		  	-webkit-border-radius: 10px;
+		  	-moz-border-radius:    10px;
+
+		  	margin: 20px;
+		  	/* FUNDO DEGRADE */
+
+		  		background: linear-gradient(lightgrey, grey);
+		  		background: -o-linear-gradient(lightgrey, grey);
+		  		background: -webkit-linear-gradient(lightgrey, grey);
+		  		background: -moz-linear-gradient(lightgrey, grey);
+		  	/* FIM DO FUNDO DEGRADE*/
+			  /*CTRL + ;*/
+		  	width: 500px;
+		  	border: 2px solid black;
+		  	padding: 10px; 
+		  	box-shadow: 15px 10px rgba(0,0,0,0.6);
+
+		  } 

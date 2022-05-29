@@ -1,0 +1,73 @@
+body{
+	background-attachment: fixed;
+	background-image: linear-gradient(to bottom,#D1D0D0, #AEADAD, #6C6C6C, #B7B7B7);
+		background-image: -o-linear-gradient(to bottom,#D1D0D0, #AEADAD, #6C6C6C, #B7B7B7);
+		background-image: -webkit-linear-gradient(to bottom,#D1D0D0, #AEADAD, #6C6C6C, #B7B7B7);
+		background-image: -moz-linear-gradient(to bottom,#D1D0D0, #AEADAD, #6C6C6C, #B7B7B7);
+
+} *{
+font-family: arial, Helvetica, "Trebuchet MS", "Times New Roman", sans-serif
+
+} h1.nome {
+
+	font-family: "Couture-Bold";
+	text-align: center;
+	font-size:4em;
+} 
+ 
+/*FONTES*/
+  @font-face{
+	font-family: "Bebas-Regular";
+	src: url("../fontes/Bebas-Regular.woff");
+} @font-face{
+	font-family: "Couture-Bold";
+	src: url("../fontes/Couture-Bold.woff");
+}
+ /*NAVEGAÇÃO*/
+ .navegacao02 ul#navegacao{
+ 	list-style-type: none;
+ 	float: left;
+ }  .navegacao02  ul#navegacao a{
+
+ 	text-transform: lowercase;
+ 	display: block;
+ 	text-decoration: none;
+ 	color: #000
+
+
+ }   
+  .navegacao02 ul#navegacao li a{
+  	border: 1px groove black;
+  	background-color: grey;
+  	width: 200px;
+  	font-size: 20px;
+  	padding: 10px;
+  	transition: 0.2s;
+
+  } .navegacao02 ul#navegacao li a:hover{
+  			text-indent: 10px;
+  	 	background-color: lightgrey;
+  	 	transition: 0.2s;
+  }    h1, h2{
+  		text-align: center;
+  }
+   /*	MARCADOR DE PÁGINAS	*/
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#contatos #navegacao .contatos a{
+			text-indent: 10px;
+  	 	background-color: lightgrey;
+} 
+  /* CONTEÚDOS ADICIONAIS */
+  #apresentacao{
+  		float: center;
+  		
+  		margin-right: 250px;
+  } h2.titulo{
+  		margin-left: 320px;
+
+  } footer{
+  	text-align: center;
+  	margin-top: 100px;
+  	clear: both;
+  }

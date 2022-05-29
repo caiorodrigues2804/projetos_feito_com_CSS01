@@ -1,0 +1,46 @@
+body{
+	background-attachment: fixed;
+	background-image: -webkit-linear-gradient(#DFDFDF, #B9B8B8, #F0EFEF, #A8A7A7, #E6E6E6);
+	  background-image: -moz-linear-gradient(#DFDFDF, #B9B8B8, #F0EFEF, #A8A7A7, #E6E6E6);
+	  background-image: -o-linear-gradient(#DFDFDF, #B9B8B8, #F0EFEF, #A8A7A7, #E6E6E6);
+  background-image: linear-gradient(#DFDFDF, #B9B8B8, #F0EFEF, #A8A7A7, #E6E6E6);
+	} *{
+		font-family: arial, Helvetica, sans-serif;
+
+	} h1,h2{
+		text-align: center;
+	}  ul {
+		width: 1200px;
+		padding: 0px;
+		margin: 0px;
+ 	 		list-style-type: none;
+ 	 		background: url(../imagens/fundo-horizontal.png);
+ 	 		float: left;
+	} ul li{
+		float: left;
+		/* border: 2px solid red; */
+		
+	
+		
+	} ul a{
+		 padding: 0.4em;
+		display: block;
+		text-decoration: none;
+		color: black;
+		font-size:130%;
+		 
+		background: url(../imagens/divisor.png) repeat-y;
+
+	} 
+		ul .primeiro a{
+ 		background: none;
+
+} a:hover{
+	color: #fff;
+    
+ } #home #navegacao .home a,
+  #sobre #navegacao .sobre a,
+  #contatos #navegacao .contatos a{
+     color: #085662;
+     background: #44cade;
+}

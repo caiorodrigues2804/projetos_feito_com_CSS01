@@ -1,0 +1,19 @@
+ .row{
+ 	/*border: 1px solid #000;*/
+	} .col{
+		/*border: 1px solid #000;*/
+	} @font-face{
+		font-family: "RoadRage";
+		src: url("../fonte/RoadRage.woff2") format("woff2"),
+		url("../fonte/RoadRage.woff") format("woff");
+		font-weight: normal;
+		font-style: normal;
+		font-display: swap;
+	} h1.name{
+		/*font-size: 60px;*/
+		font-family: "RoadRage";
+	} body{
+		background: rgb(229,255,215);
+background: linear-gradient(0deg, rgba(229,255,215,1) 0%, rgba(196,196,196,1) 100%);
+		background-attachment: fixed;
+	}

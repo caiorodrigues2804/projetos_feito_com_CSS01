@@ -1,0 +1,31 @@
+*{
+	font-family: arial, Helvetica, sans-serif;
+
+} #container{
+	margin-right: 50px;
+	margin-left: 50px;
+	margin-top: 20px;
+	border: 2px solid red;
+
+} #conteudo{
+	border: 2px solid red;
+	float: right;
+	 height: 200px;
+	 width: 500px;
+	 
+} #lateral{
+	border: 2px solid red;
+	float: right;
+	height:200px;
+	 width: 400px; 
+} #rodape{
+	border: 2px solid red;
+	clear: both;
+	} #marca{
+	border: 2px solid red;
+	 height:100px;
+} #navegacao{
+	border: 2px solid red;
+	height: 200px;
+	 
+} 

@@ -1,0 +1,30 @@
+ #container01{
+	border: 1px solid #000;
+	height: 40px;
+
+	} #conteudo{
+		border: 1px solid #000;
+		width: 600px;
+		height: 40px;
+		float: right;
+			} #conteudo02{
+				width: 380px;
+				border: 1px solid #000;
+				height: 40px;
+				float: right;
+}  #navegacao02{
+width: 250px;
+border: 1px solid #000;
+height: 40px;
+float: left;
+	} #conteudo3{
+	width: 630px;
+	border: 1px solid #000;
+	height: 40px;
+	float: right;
+	/*	 RODAPÉ		*/
+}#rodape{
+	text-align: center;
+	border: 1px solid #000;
+	height: 120px;
+}

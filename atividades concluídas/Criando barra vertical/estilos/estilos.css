@@ -1,0 +1,28 @@
+body{
+
+
+
+ }*{
+ 	font-family:arial, "Helvetica", "Trebuchet MS",Helvetica,sans-serif;
+
+
+ 	}ul.navegacao{
+ 		list-style-type: none;
+
+
+ 	} ul.navegacao li{
+ 		/* border: 1px solid black; */
+ 		padding: 0.5em;
+ 		width: 185px;
+ 		background: url(../imagens/menu.png) left top no-repeat;
+ 		transition: 0.2s;
+ 	} ul.navegacao a{
+ 		text-decoration: none;
+ 		display: block;
+ 		line-height: 22px;
+ 		text-indent: 25px;
+ 		color: black;
+ 	} ul.navegacao li:hover{
+ 		background-position: right top;
+ 		transition: 0.2s; 
+ 	}

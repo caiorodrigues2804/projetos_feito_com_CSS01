@@ -1,0 +1,131 @@
+body{
+background: rgb(142,242,244);
+background: linear-gradient(90deg, rgba(142,242,244,1) 0%, rgba(194,216,150,1) 48%, rgba(142,242,244,1) 100%);
+
+
+	}*{
+		font-family: arial, Helvetica, "Trebuchet MS", "Times New Roman", sans-serif;
+		} #container{
+			max-width:1400px;
+			min-width: 1200px; 
+		border: 1px solid black;
+		margin: 30px;
+		background: #ccc;
+		/*NOME DA MARCA */
+	}  .nome h1{
+		font-family: "TheBoldFont";
+		font-size: 50px;
+		text-align: center;
+		/*				*/
+	} .nome{
+		float: center;
+		border: 1px solid black;
+		height: 100px;
+	} 
+	/* MENU DE NAVEGAÇÃO */
+	.navegacao02 ul#navegacao {
+		list-style-type: none;		
+
+	} .navegacao02 ul#navegacao li{
+		line-height: 32px;
+		width: 202px;
+		background: url(../imagens/menu.png) no-repeat left top;
+
+
+		} .navegacao02 ul#navegacao a{
+			color: #000;
+			text-indent: 28px;
+		text-decoration: none;
+		font-size: 18px;
+	} .navegacao02 ul#navegacao li a{
+		display: block;
+		width: 200px;
+		border: 1px solid black;
+		text-transform: lowercase;
+		transition: 0.2s;
+	} .navegacao02 ul#navegacao li a:hover{
+		 background: url(../imagens/menu.png) no-repeat right top;
+		 transition: 0.2s;
+		 color: #fff;
+
+	}
+
+
+
+
+
+
+	/****************************/
+	/* CONTEUDO*/
+#conteudo{
+	border:1px solid black;
+		height: 300px;
+		width: 700px;
+		float: right;
+		background: #ccc;
+	/*	border:1px solid black;
+		height: 300px;
+		width: 700px;
+		float: right;*/
+
+/*	border: 1px solid black;
+	height: 300px;
+	width: 250px;
+	float: right;*/
+
+	} #lateral{
+	border: 1px solid black;
+	height: 200px;
+	margin-left: 10px;
+	width: 250px;
+	float: right;
+	background: #ccc;
+
+	} 
+/*		 RODAPÉ					*/
+ #rodape{
+ 	border:1px solid #000;
+ 	clear: both;
+ 	background: #ccc;
+ }
+
+
+
+
+	/****************************/
+	/*CONFIGURAÇÕES DE FONTES*/
+	 @font-face{
+		font-family: "Bebas-Regular";
+		src: url("../fontes/Bebas-Regular.woff");
+	} @font-face{
+		font-family: "BringHeart";
+		src: url("../fontes/BringHeart.woff");
+		} @font-face{
+			font-family: "RoadRage";
+			src: url("../fontes/RoadRage.woff");
+		} @font-face{
+			font-family: "TheBoldFont";
+			src: url("../fontes/TheBoldFont.woff");
+		}
+		/* CONTEÚDO PRINCIPAL */
+h1#conteudo-principal{
+	font-size: 25px;
+	margin-left: 9px;
+	padding-top: -20px;
+
+}#fundo{
+	height: 50px;
+	background-color: rgba(0,0,0,0.10);
+	 
+	border: 1px solid #000
+}
+/* MARCADOR DE NAVEGAÇÃO*/
+ #home #navegacao .home a,
+ #contatos #navegacao .contatos a,
+ #sobre #navegacao .sobre a{
+ 	 background: url(../imagens/menu.png) no-repeat right top;
+		 transition: 0.2s;
+		 color: #fff;
+ }
+
+

@@ -1,0 +1,44 @@
+body{
+	 	background: -webkit-linear-gradient(#CAC9C9, #B5B4B4, #9B9B9B, #D5D5D5, #BDBDBD);
+		background: -moz-linear-gradient(#CAC9C9, #B5B4B4, #9B9B9B, #D5D5D5, #BDBDBD);
+		background: -o-linear-gradient(#CAC9C9, #B5B4B4, #9B9B9B, #D5D5D5, #BDBDBD);
+	background: linear-gradient(#CAC9C9, #B5B4B4, #9B9B9B, #D5D5D5, #BDBDBD);
+	 background-attachment: fixed;
+} *{
+	font-family:  arial, "Trebuchet MS", Helvetica, sans-serif;
+} ul{
+	width: 1200px;
+	padding: 0px;
+	margin: 0px;
+	 list-style-type: none;
+	 background: url(../imagens/fundo-horizontal.png);
+	 float: left;
+} ul a{
+	float: left;
+	 /* border: 2px solid red; */
+
+} ul a{
+	padding: 0.4em;
+	display: block;
+	text-decoration: none;
+	color: white;
+	font-size: 130%;
+	 background: url(../imagens/divisor.png) repeat-y;
+ 
+	}
+	ul .primero a{
+	background: none;
+
+} a:hover{
+	color: #000;
+}  #home #navegacao .home a,
+ #sobre #navegacao .sobre a,
+ #contatos #navegacao .contatos a{
+	color: #085662;
+	background: #44cade;
+}
+
+
+/* background: #44cade; */
+
+

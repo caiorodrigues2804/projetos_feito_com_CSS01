@@ -1,0 +1,36 @@
+ #container{
+ 	border: 1px solid #000;
+ } #marca{
+ 	float: center;
+ 	border: 1px solid #000;
+ } #layout-navegacao{
+ 	border: 1px solid #000;
+ 	float: right;
+ 	height: 300px;
+ 	width: 250px;
+ } #layout-navegacao02{
+ 	border: 1px solid #000;
+ 	float: left;
+ 	height: 300px;
+ 	width: 300px;
+ } #conteudo01{
+ 	float: right;
+ 	width: 300px;
+ 	/*width: 963px;*/
+ 	/*margin-left: 10px;*/
+ 	height: 300px;
+ 	border: 1px solid #000;
+ }  #layout-conteudo{
+ 	float: right;
+ 	width: 663px;
+ 	height: 600px;
+ 	border: 1px solid #000;
+ } #layout-navegacao03{
+ 	border: 1px solid #000;
+ 	float: right;
+ 	height: 300px;
+ 	width: 250px;
+ } #rodape{
+ 	border:1px solid #000;
+ 	text-align: center;
+ }

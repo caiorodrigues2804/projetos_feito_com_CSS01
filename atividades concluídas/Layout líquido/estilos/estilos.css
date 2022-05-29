@@ -1,0 +1,51 @@
+body{
+ /* INSERT */
+ 	background-attachment: fixed;
+ 	background-image: -moz-linear-gradient(#B0B0B0, #D4D3D3, #7D7D7D, #595858);
+ 	background-image: -webkit-linear-gradient(#B0B0B0, #D4D3D3, #7D7D7D, #595858);
+  background-image: -o-linear-gradient(#B0B0B0, #D4D3D3, #7D7D7D, #595858);
+  background-image: linear-gradient(#B0B0B0, #D4D3D3, #7D7D7D, #595858);
+
+} #container{
+	border: 1px solid black;
+	 max-width: 1000px;
+	min-width: 600px;
+	/* width: 1000px; */
+	margin-right: 100px;
+	margin-left: 120px;
+	margin-top:10px;
+} #q1 /* MARCA */{
+	border: 1px solid black;
+	height:  15%;/*150px; */
+
+	float: center;
+} #q3 /* LATERAL */ {
+ 		border: 1px solid black;
+ 		width: 24%; /*240px;*/
+	height: 200px;
+	float: right;
+}#q2 /* CONTEUDO */ {
+ 		border: 1px solid black;
+ 		margin-left: 10px;
+ 		margin-right: 10px;
+ 		width: 54%; /*540px; */
+	height: 300px;
+	float: right;
+} #q4 /* NAVEGAÇÃO */ {
+ 		border: 1px solid black;
+ 		width: 20%;
+	height: 300px;
+ 
+} #q5 /* RODAPÉ */{
+	clear: both;
+	 max-width: 1000px;
+	min-width: 600px;
+	border: 1px solid black;
+
+} h1.nome{
+	text-align: center;
+	font-size:80px;
+	line-height: 40px;
+} *{
+	font-family: "Trebuchet MS", arial, Helvetica, "Times New Roman", sans-serif;
+}

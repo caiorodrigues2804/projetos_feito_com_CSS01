@@ -1,0 +1,38 @@
+body{
+	background-attachment: fixed;
+	background-image: linear-gradient(#ABAAAA, #808080, #626262, #DBDADA, #5B5B5B);
+	background-image: -o-linear-gradient(#ABAAAA, #808080, #626262, #DBDADA, #5B5B5B);
+	background-image: -moz-linear-gradient(#ABAAAA, #808080, #626262, #DBDADA, #5B5B5B);
+	background-image: -webkit-linear-gradient(#ABAAAA, #808080, #626262, #DBDADA, #5B5B5B);
+
+
+	} h1.titulo{
+		color: white;
+		text-align: center;
+	} *{
+			font-family: arial, Helvetica, "Trebuchet MS", sans-serif;
+	} ul{
+		list-style-type: none;
+		float:left;
+	} ul li{
+		font-size:20px;
+		line-height: 30px;
+			background: url(../imagens/aba-direita.png) no-repeat right top;
+		float: left;
+
+	}li a{
+			display: block;
+			color: black;
+			padding: 0.2em;
+			line-height: 3em;
+			text-decoration: none;
+			background: url(../imagens/aba-esquerda.png) no-repeat left top;
+		} li a:hover{
+			color:#fff;
+
+		} ul #atual{
+			background: url(../imagens/aba-direita-atual.png) no-repeat right top;
+			}ul #atual a{
+			
+			background: url(../imagens/aba-esquerda-atual.png) no-repeat left top;
+			}

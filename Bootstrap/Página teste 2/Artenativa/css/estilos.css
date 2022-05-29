@@ -1,0 +1,18 @@
+body{
+
+background: rgb(206,254,140);
+background: -webkit-gradient(linear, left top, right top, from(rgba(206,254,140,1)), color-stop(50%, rgba(191,255,195,1)), to(rgba(168,255,172,1)));
+background: -o-linear-gradient(left, rgba(206,254,140,1) 0%, rgba(191,255,195,1) 50%, rgba(168,255,172,1) 100%);
+background: linear-gradient(90deg, rgba(206,254,140,1) 0%, rgba(191,255,195,1) 50%, rgba(168,255,172,1) 100%);.example {
+    display: -ms-grid;
+    display: grid;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
+    background: -o-linear-gradient(top, white, black);
+}  

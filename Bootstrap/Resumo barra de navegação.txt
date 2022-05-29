@@ -1,0 +1,94 @@
+Notação Boostrap 12:
+
+Barras de navegação - parte 2
+
+Observação: baixe o material de apoio para consultar como fazer esse procedimento corretamente, até mesmo acesse o local de arquivo salvo com todos os matérias de apoios.
+
+Sites:
+
+https://getbootstrap.com/docs/4.1/components/navbar/
+
+https://getbootstrap.com/docs/4.1/components/navs/
+
+Para criar o menu com uma barra de pesquisa é necessário criar um formulário
+
+<!------ Formulário --------->
+
+ </li>
+
+</ul>
+
+     <form class="form-inline">
+
+       <input type="text" class="form-control" placeholder="Pequisar..">
+
+ <button class="btn btn-outline-success"> Ok </button>
+
+  <!--- Quando você apertar botão vai descer os dois é necessário colocar DIVs com outros nomes para solucionar esse problema -->
+
+</div>
+
+Observação: Como criar um "Menu Dropdown" que aparece as opções das páginas num único menu.
+
+ Menu Dropdown
+
+        <!-- navegacao -->
+
+        <div class="collapse navbar-collapse" id="navegacao2">
+
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+
+                    <a href="" class="nav-link">Home</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a href="" class="nav-link">Sobre</a>
+
+                </li>
+
+                <li class="nav-item dropdown">
+
+                    <a href="" class="nav-link dropdown-toggle" 
+
+                    data-toggle="dropdown">Serviços</a>
+
+                    <div class="dropdown-menu">
+
+                        <a href="" class="dropdown-item">Serviço 1</a>
+
+                        <a href="" class="dropdown-item">Serviço 2</a>
+
+                        <a href="" class="dropdown-item">Serviço 3</a>
+
+                    </div>
+
+                </li>
+
+Observação: Então, esses códigos Javascript no começo da seção, eles são utilizandos, e por isso, eu recomendei esses códigos Javascript, pois com esses códigos do JS, pois você vai ter uma exibição muito boa de diversidade maior de dispositivos. 
+
+    <!--Cores
+
+    opções: bg-primary, bg-secondary, bg-success, bg-info,
+
+    bg-warning, bg-danger, bg-light, bg-dark
+
+    -->
+
+     Serve para aplicar as cores na barra de navegação 
+
+ 
+
+  <!--Alinhamentos
+
+  opções: fixed-top, fixed-bottom, sticky
+
+   -->
+
+Nós podemos configurar os alinhamento da barra de navegação, podemos usar o Fixed-Top para fixar no topo e para fixar na visão inferior do site usar Fixed-Bottom. E o sticky-top  para colar no topo 
+
+para que funcione é necessário usar parágrafos, para ter uma visualização melhor, por exemplo: lorem ipsum
+

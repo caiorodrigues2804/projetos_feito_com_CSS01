@@ -1,0 +1,19 @@
+body{
+	background-attachment: fixed;
+background-image: linear-gradient(#D0CFCF, #C1C1C1, #959595, #E2E1E1);
+background-image: -o-linear-gradient(#D0CFCF, #C1C1C1, #959595, #E2E1E1);
+background-image: -webkit-linear-gradient(#D0CFCF, #C1C1C1, #959595, #E2E1E1);
+background-image: -moz-linear-gradient(#D0CFCF, #C1C1C1, #959595, #E2E1E1);
+
+	} *{
+		font-family: "Trebuchet MS", arial, Helvetica, sans-serif;
+
+
+	} @font-face{
+		font-family: "TheBoldFont";
+		src: url("../fontes/TheBoldFont.woff");
+	}  h1{
+		font-size: 6em;
+		font-family: "TheBoldFont";
+		text-align: center;
+	}

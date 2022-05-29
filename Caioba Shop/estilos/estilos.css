@@ -1,0 +1,53 @@
+	body{
+		background-attachment: fixed;
+background: rgb(255,198,148);
+background: linear-gradient(90deg, rgba(255,198,148,1) 0%, rgba(255,180,40,1) 50%, rgba(252,194,112,1) 100%);
+
+
+} #container{
+	border: 1px solid #000;
+	margin: 40px;
+} #marca{
+	text-align: center;
+	border: 1px solid #000;
+	height: 100px;
+	} h1.nome{
+		margin-top: 10px;
+		font-size: 50px;
+		/* NAVEGAÇÃO */
+	} .navegacao02 nav.navegacao-principal ul#navegacao{
+		margin: 6px;
+		padding: 0px;
+		/*float: left;*/
+		list-style-type: none;
+
+
+	} .navegacao02 nav.navegacao-principal ul#navegacao a{
+		width: 250px;
+		text-decoration: none;	
+		display: block;
+ 	color: #000;
+	}.navegacao02 nav.navegacao-principal ul#navegacao li{
+		border: 1px solid #000;
+		line-height: 35px;
+		text-indent: 30px;
+		width: 200px;
+		background: url(../imagens/menu.png) no-repeat top left;
+	} .navegacao02 nav.navegacao-principal ul#navegacao li:hover{
+		transition: 0.2s;
+		background: url(../imagens/menu.png) no-repeat top right;
+		} 
+		/*FIM DA NAGAÇÃO*/
+		#conteudo{
+			border: 1px solid #000;
+			float: right;
+			height: 300px;
+			width: 200px;
+		} #conteudo02{
+			border: 1px solid #000;
+			float: right;
+			height: 300px;
+			width: 600px;
+		} #rodape{
+			clear: both;
+		}

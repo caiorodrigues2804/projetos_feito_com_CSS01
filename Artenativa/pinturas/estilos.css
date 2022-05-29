@@ -1,0 +1,113 @@
+body{
+		background-attachment: fixed;
+		background-image: -moz-linear-gradient(to right,#AAF6AF,#82BF86, #547D57, #92DE97, #9AF4A0);
+		background-image: -webkit-linear-gradient(to right,#AAF6AF,#82BF86, #547D57, #92DE97, #9AF4A0);
+		background-image: -o-linear-gradient(to right,#AAF6AF,#82BF86, #547D57, #92DE97, #9AF4A0);
+	background-image: linear-gradient(to right,#AAF6AF,#82BF86, #547D57, #92DE97, #9AF4A0);
+} #container{
+	/*border: 1px solid black;*/
+	max-width: 1200px;
+	min-width: 1000px;
+	margin: 50px;
+	height: 605px;
+}  #marca{
+	background: linear-gradient(to right, grey, lightgrey);
+	border: 1px solid black;
+	height: 200px;
+	float: center;
+	margin-bottom: 10px;
+ } #lateral{
+  
+ 	float: right;
+ 	width: 240px;
+ 	background-color: #ccc;
+		height: 300px;
+ 		border:1px solid black;
+
+
+ 	}#conteudo{
+ 		margin-right: 10px;
+ 		float: right;
+ 		width: 640px;
+ 		height: 400px;
+ 		background-color: #ccc;
+ 		border:1px solid black;
+
+
+ 		}#rodape{
+ 			clear: both;
+ 			background-color: #ccc;
+ 			border: 1px solid black;
+
+ 			} /*ARTENATIVA*/ 
+			 @font-face{
+		font-family: "TheBoldFont";
+		src: url("../fontes/TheBoldFont.woff");
+	}  h1{
+		font-size: 6em;
+		font-family: "TheBoldFont";
+		text-align: center;
+		letter-spacing: 10px;
+
+
+
+ 			/* MENU E NAVEGAÇÃO */
+	} h2.conteudos{
+	 	margin-top: 0px;
+	 	color:#fff;
+	 	text-indent: 10px;
+	 	line-height: 40px;
+	 	background: rgb(0,0,0,0.4);
+		border: 1px solid black;
+		padding-bottom: 20px;
+
+
+	}
+
+
+
+ .navegacao02  ul#navegacao { 
+ 	float: left;
+ 	background-color: #ccc;
+ 	list-style-type: none;
+ 	border: 1px solid black;
+ 	width: 200px;
+ 	height: 200px;
+ 	 	margin-top: 10px
+
+ } .navegacao02 ul#navegacao a{
+ 	border: 2px solid black;
+ 	 text-decoration: none;
+ 	 color: #000;
+
+} .navegacao02 li a{
+
+	display: block;
+	background-color: grey;
+	padding: 10px;
+	width: 150px;
+	transition: 0.5s;
+	/*border: 1px solid black;*/
+
+
+	} .navegacao02 li a:hover{
+		text-indent: 10px;
+		/*border: 2px solid black;*/
+		background-color: #DDDEDD;
+		color: white;
+		transition: 0.4s;
+
+		}p.menu{
+		text-indent: 60px;
+		} */*TODOS OS ELEMENTOS SELECIONADOS*/ 
+{
+	font-family: "Trebuchet MS", "Times New Roman", arial, arial black, Helvetica, sans-serif
+
+	} #home #navegacao .home a,
+	 #sobre #navegacao .sobre a,
+	 #contatos #navegacao .contatos a{
+		color: #fff;
+		border: 2px solid #fff;
+	}
+
+

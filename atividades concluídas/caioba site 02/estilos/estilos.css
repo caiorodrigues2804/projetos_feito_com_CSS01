@@ -1,0 +1,101 @@
+body{
+	background-attachment: fixed;
+		background-image: -webkit-linear-gradient(#D8D7D7, #C4C4C4, #878787, #EAEAEA);
+		background-image: -moz-linear-gradient(#D8D7D7, #C4C4C4, #878787, #EAEAEA);
+		background-image: -o-linear-gradient(#D8D7D7, #C4C4C4, #878787, #EAEAEA);
+	background-image: linear-gradient(#D8D7D7, #C4C4C4, #878787, #EAEAEA);
+} #container{
+	margin-top: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	width: 1000px;
+		border: 2px solid black;
+} #q1 /* MARCA */{
+	width: 1000px; /* 1000px; */
+ 		border: 2px solid black;
+	float: center;
+	height: 200px;
+	background: url(../imagens/cabecalho2.jpg);
+} #q2 /* Conteudo */{
+	border: 2px solid black;
+	height: 300px;
+	width: 400px; /* 400px */
+	float: right;
+}#q3 /* Conteudo 2 */{
+		border: 2px solid black;
+	height: 300px; 
+	width: 300px; /* 300px */
+	float: right;
+}#q4 /* Navegação */{
+	border: 2px solid black;
+	height: 300px; 
+	width: 288px; /* 288px */
+	float: left;
+} #q5 /* Rodapé */{
+	border: 2px solid black;
+	width: 996px; /* 1000px*/
+	clear: both;
+	margin-left: 102px;
+
+
+}/* ESTILOS E CARACTERÍSTICAS */ 
+h1.nome{
+	font-size:50px;
+	line-height: 150px;
+	text-align: center;
+	color: white;
+
+} *{
+	font-family: arial, "Trebuch MS", Helvetica, sans-serif;
+} h1.menu{
+	text-indent: 100px;
+	}h3.menu{
+		text-indent: 90px;
+
+
+		} ul.navegacao{
+		list-style-type: none;
+		text-indent: 0px;
+		font-size:20px;
+	}	ul.navegacao a{
+		text-decoration: none;
+
+	} ul.navegacao li:hover{
+
+
+		background: linear-gradient(#FEFEFE, #D7D6D6, #E9E8E8);
+background: -o-linear-gradient(#FEFEFE, #D7D6D6, #E9E8E8);
+background: -moz-linear-gradient(#FEFEFE, #D7D6D6, #E9E8E8);
+background: -webkit-linear-gradient(#FEFEFE, #D7D6D6, #E9E8E8);
+	 
+
+	} ul.navegacao a:hover{
+
+		color: white;
+		transition: 0.2s;
+
+		}  li.home, li.contatos, li.sobre{
+		border: 2px solid black;
+		padding: 10px;
+		margin-right: 10px;
+		background: linear-gradient(lightgrey, grey);
+		background: -o-linear-gradient(lightgrey, grey);
+		background: -webkit-linear-gradient(lightgrey, grey);
+		background: -moz-linear-gradient(lightgrey, grey);
+		/* transition: 0.2s; */
+	}   li.home a, li.contatos a, li.sobre a{
+		color: black;
+
+	} /* MARCADOR */
+	 #home #q4 .home a,
+	 #sobre #q4 .sobre a,
+	 #contatos #q4 .contatos a{
+
+		color: white;
+/* background: linear-gradient(#FEFEFE, #D7D6D6, #E9E8E8);
+background: -o-linear-gradient(#FEFEFE, #D7D6D6, #E9E8E8);
+background: -moz-linear-gradient(#FEFEFE, #D7D6D6, #E9E8E8);
+background: -webkit-linear-gradient(#FEFEFE, #D7D6D6, #E9E8E8);
+	*/ 
+
+	} 

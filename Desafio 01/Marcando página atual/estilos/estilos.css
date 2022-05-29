@@ -1,0 +1,37 @@
+body{
+	background-attachment: fixed;
+   background-image: linear-gradient(#E2E1E1, #D4D3D3, #E1E0E0, #A8A7A7);
+ background-image: -o-linear-gradient(#E2E1E1, #D4D3D3, #E1E0E0, #A8A7A7);
+  background-image: -moz-linear-gradient(#E2E1E1, #D4D3D3, #E1E0E0, #A8A7A7);
+    background-image: -webkit-linear-gradient(#E2E1E1, #D4D3D3, #E1E0E0, #A8A7A7);
+	} *{
+		font-family: arial, Helvetica, sans-serif;
+	} h1, h2{
+		text-align: center;
+	} ul{
+		list-style: none;
+		padding: 0px;
+		margin: 0px;
+
+	} ul a{
+		text-decoration: none;
+		text-indent: 20px;
+		line-height: 20px;
+
+	} li a{
+		display: block;
+		padding: 10px;
+		width: 180px;
+		/* border: 2px solid red; */
+		background: url(../imagens/menu.png) no-repeat left top;
+		transition: 0.2s;
+		}	a:hover{
+			color: black;
+			background-position: right top;
+			transition: 0.2s;
+		} #home #navegacao .home a,
+			#sobre #navegacao .sobre a,
+			#contatos #navegacao .contatos a {
+			color: black;
+			background-position: right top;
+		}

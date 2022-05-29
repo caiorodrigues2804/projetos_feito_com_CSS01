@@ -1,0 +1,100 @@
+body{
+	background-attachment: fixed;
+		background-image: -webkit-linear-gradient(to right,#E8E7E7, #D2D2D2, #A2A2A2, #C8C8C8, #E3E3E3);
+		background-image: -moz-linear-gradient(to right,#E8E7E7, #D2D2D2, #A2A2A2, #C8C8C8, #E3E3E3);
+		background-image: -o-linear-gradient(to right,#E8E7E7, #D2D2D2, #A2A2A2, #C8C8C8, #E3E3E3);
+	background-image: linear-gradient(to right,#E8E7E7, #D2D2D2, #A2A2A2, #C8C8C8, #E3E3E3);
+}  *{
+font-family: arial, Helvetica, "Trebuchet MS", sans-serif;
+
+} #container{
+	/*border: 1px solid black;*/
+	margin: 40px;
+} 
+/*				FONTES 									*/
+#marca {
+	text-align: center;
+	font-size: 35px;
+	height: 100px;
+	/*border: 1px solid black;*/
+	float: center
+}   
+
+/* 				BARRA DE NAVEGAÇÃO  				*/
+.navegacao02 ul#navegacao{
+	list-style-type: none;
+
+} .navegacao02 ul#navegacao a{
+	text-decoration: none;
+	color: #000;
+	font-size: 20px;
+} .navegacao02 ul#navegacao li a{
+	display: block;
+	width: 180px;
+	line-height: 30px;
+	border: 2px solid black;
+	background: grey;
+	/*transition: 0.2s; */
+	}.navegacao02 ul#navegacao a:hover{
+		text-indent: 10px;
+		background: lightgrey;
+		color: #fff;
+		transition: 0.2s; 
+	}	 
+/*				CONTEUDO 				*/
+#fundo{
+	background-color: #C6C5C5;
+	 display: block;
+	 height: 500px;
+	 width: 680px;
+
+	float: right;
+	border: 1px solid black
+
+ } #fundo2{
+ 	 margin-left: 10px;
+	 display: block;
+	 /*background-color: #C1C1C1;*/
+	
+	 height: 300px;
+	 width: 230px;
+	float: right;
+	border: 1px solid black
+
+ } footer{
+ 	clear: both;
+ 	/*background-color: #D9D9D9;*/
+ 	/*border: 1px solid black;*/
+
+ 	margin-right: 239px;
+ 	 	margin-left:239px;
+ } #rodape{
+ 	text-align: center;
+ } h1#paginas{
+ 	text-indent: 10px;
+ 	line-height: 60px;
+ 	color: #fff;
+ 	margin-top:0px;
+ 	height: 50px;
+ 	background: rgb(0,0,0,0.6);
+ }  #conteudo h2{
+ 	text-indent: 40px;
+ }  #conteudo p{
+ 	margin-left:40px;
+ 	margin-right: 40px;
+ 	font-size: 20px;
+ }
+ /*			NAVEGACAO				*/
+ #home #navegacao .home a,
+ #contatos #navegacao .contatos a,
+ #sobre #navegacao .sobre a{
+ 		text-indent: 10px;
+		background: lightgrey;
+		color: #fff;
+ 
+ } #formulario{
+ 	margin-left: 35px;
+ } #formulario textarea{
+ 	width: 300px;
+ 	height: 100px;
+ }

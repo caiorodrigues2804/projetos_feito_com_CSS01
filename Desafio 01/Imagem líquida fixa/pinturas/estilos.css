@@ -1,0 +1,57 @@
+body{
+	background-attachment: fixed;
+	 background-image: -webkit-linear-gradient(#DBDADA, #CAC9C9, #EAEAEA, #A5A5A5);
+	 background-image: -moz-linear-gradient(#DBDADA, #CAC9C9, #EAEAEA, #A5A5A5);
+ background-image: -o-linear-gradient(#DBDADA, #CAC9C9, #EAEAEA, #A5A5A5);
+ background-image: linear-gradient(#DBDADA, #CAC9C9, #EAEAEA, #A5A5A5);
+
+}*{
+	font-family: arial, Helvetica, sans-serif;
+
+	} #container{
+		margin: 40px;
+		margin-left:100px;
+		margin-right:100px;
+		width: 1000px;
+		/*10000*/
+
+	border: 2px solid black;
+}  #q3{
+	background: url(../imagem/cabecalho2.jpg);
+	border: 2px solid black;
+	float: center;
+	width: 1000px;
+	height: 200px;
+ 
+} #q2{
+	width: 200px;
+	height: 300px;
+	float: right;
+	border: 1px solid black;
+}  #q1{
+	border: 1px solid black;
+	float: right;
+	width: 550px;
+	height: 500px;
+	margin-right: 5px;
+	
+} #q4{
+	border: 1px solid black;
+	float: left;
+	width: 231px;
+	height: 300px;
+} #q5{
+	border: 1px solid black;
+	clear: both;
+} img.img-noticia{
+	width: 94%;
+  padding: 2%;
+  max-width: 600px;
+ 	
+	 
+} h1.artenativa{
+ 	font-family: arial, Helvetica, sans-serif;
+ 	color: white;
+ 	font-size:100px;
+ 	text-align: center;
+} 

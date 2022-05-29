@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Couture';
+    src: url('Couture-Bold.woff2') format('woff2'),
+        url('Couture-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

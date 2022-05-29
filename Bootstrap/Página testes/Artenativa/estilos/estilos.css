@@ -1,0 +1,57 @@
+body{
+	background-attachment: fixed;
+	background: rgb(103,171,10);
+background: linear-gradient(90deg, rgba(103,171,10,1) 0%, rgba(125,255,133,1) 50%, rgba(122,207,126,1) 100%);
+} #container{
+	margin: 20px;
+	/*border: 1px solid #000;*/
+} #container h1#nome{
+	font-size: 5em;
+	text-align: center;
+}
+/* 	NAVEGAÇÃO	*/
+#navegador{
+	margin-left: 355px;
+	margin-right: 100px;
+
+}
+
+
+#navegador nav#navegacao-principal ul#navegacao {
+
+	list-style-type: none;
+
+
+ } #navegador nav#navegacao-principal ul#navegacao a{
+ 		text-decoration: none;
+ 		color: #000;
+ 		}
+ 		#navegador nav#navegacao-principal ul#navegacao li{
+ 			font-size: 20px;
+ 			line-height: 30px;
+ 			background: url(../imagens/aba-direita.png) no-repeat right top;
+ 			float: left;
+ 	}#navegador nav#navegacao-principal ul#navegacao li a{
+ 		display: block;
+ 		color: #000;
+ 		padding: 0.2em;
+ 		line-height: 2em;
+ 		background: url(../imagens/aba-esquerda.png) no-repeat left top;
+ 		float: left;
+ 	}#navegador nav#navegacao-principal ul#navegacao li a:hover{
+ 		color: #fff;	
+ 			background: url(../imagens/aba-esquerda-atual.png) no-repeat left top;
+ 	}#navegador nav#navegacao-principal ul#navegacao li:hover{
+ 				background: url(../imagens/aba-direita-atual.png) no-repeat right top;
+ 	}
+ 	/* MARCAÇÃO DE PÁGINAS*/
+ 	/*} ul #atual{*/
+ 		/*color: #fff;*/
+			/*background: url(../imagens/aba-direita-atual.png) no-repeat right top;*/
+			/*}ul #atual a{*/
+			
+			/*background: url(../imagens/aba-esquerda-atual.png) no-repeat left top;*/
+			}
+		/* FIM DA NAVEGAÇÃO*/
+		/* SUB TITULO*/
+		 

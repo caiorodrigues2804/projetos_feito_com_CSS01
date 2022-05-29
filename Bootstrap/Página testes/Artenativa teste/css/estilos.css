@@ -1,0 +1,53 @@
+body{
+
+		 background-attachment: fixed;
+		background: rgb(237,255,233);
+		background: -o-radial-gradient(circle, rgba(237,255,233,1) 0%, rgba(206,255,168,1) 44%, rgba(152,152,152,1) 100%);
+		background: radial-gradient(circle, rgba(237,255,233,1) 0%, rgba(206,255,168,1) 44%, rgba(152,152,152,1) 100%);
+} #container{
+	border: 1px solid #000;
+	margin: 30px;
+}  #marca {
+			float: center;
+	border: 1px solid #000;
+	height: 100px;
+	}#marca h1#nome{
+		text-align: center;
+		font-size: 50px;
+	}
+	/* NAVEGAÇÃO */
+	#navegador-principal nav#navegador ul#navegacao{
+		list-style-type: none;
+
+	} #navegador-principal nav#navegador ul#navegacao a{
+		text-decoration: none;
+		display: block;
+		width: 200px;
+		line-height: 40px;
+		text-indent: 30px;
+		color: #000;
+		background: url(../imagens/menu.png) no-repeat left top;
+		} #navegador-principal nav#navegador ul#navegacao a:hover{
+			color: #fff;
+			background-position: right top;
+			transition: 0.2s;
+		} 
+		  	/* CONTEUDOS*/
+		  	#conteudo{
+		  		border: 1px solid #000;
+		  		height: 400px;
+		  		width: 200px;
+		  		float: right;
+ 		}   	 
+ 			#conteudo-lateral{
+		  		border: 1px solid #000;
+		  		height: 400px;
+		  		width: 700px;
+		  		float: right;
+
+}
+	 /*RODAPÉ	*/
+#rodape{
+	clear: both;
+	border:1px solid black;
+}

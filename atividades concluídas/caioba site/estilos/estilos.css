@@ -1,0 +1,108 @@
+body{
+	background-attachment: fixed;
+		background-image: -webkit-linear-gradient(#DEDDDD,#AEADAD,#E1E0E0,#878787,#545454);
+		background-image: -moz-linear-gradient(#DEDDDD,#AEADAD,#E1E0E0,#878787,#545454);
+		background-image: -o-linear-gradient(#DEDDDD,#AEADAD,#E1E0E0,#878787,#545454);
+	background-image: linear-gradient(#DEDDDD,#AEADAD,#E1E0E0,#878787,#545454);
+	}*{
+		font-family: "Trebuchet MS", arial, Helvetica, sans-serif;	
+
+	} #container{
+		margin-right: 120px;
+		margin-left: 40px;
+		margin-top:10px;
+ 		border: 1px solid black;
+		max-width: 97%; /* 1200PX */
+		min-width: 58%; 
+		background-color: #A1A0A0;
+	} #q1{
+		border: 1px solid black;
+		height: 150px;
+		float: center;
+		background: url(../imagens/cabecalho2.jpg);
+
+	} #q3 /* LATERAL */ {
+			background-color: #E8E7E7;
+	border: 2px solid black;
+		width: 25%;
+		height: 350px; 
+		float: right;
+	}#q2 /* Conteudo 2 */ {
+		background-color: #D4D3D3;
+		border: 2px solid black;
+		width: 52%;
+		height: 350px;
+		float: left;
+	} #q4 /* Navegação */{
+		background-color: #E8E7E7;
+		border: 1px solid black;
+		max-width: 0%;
+		min-width: 22%;
+		height: 350px;
+		float: right;
+	} #q5 /* Conteudo */ {
+			background-color: #D4D3D3;
+		border: 1px solid black;
+		width: 21%;
+		height: 350px;
+		float: left;
+	} #q6 /* Rodapé */ {
+		width: 100%;
+			background-color: #D4D3D3;
+		clear: both;
+	}#q7 /*Background */{
+		float: left;
+		width: 50%;
+		height: 300px;
+		border: 2px solid black;
+
+
+		} #q8 /*Background */{
+		float: right;
+		width: 49%;
+		height: 300px;
+		border: 2px solid black;
+
+
+		} h1.nome{
+		text-align: center;
+		font-size: 80px;
+		color: white;
+	} h1.menu{
+		text-align: center;
+		margin: 10px;
+	} h2.nome-das-paginas{
+		text-align: center;
+	}#fundo01{
+		border: 1px solid black;
+		background: grey;
+		padding-top: 10px;
+
+	}		/***** MENU **************/
+	 		ul.navegacao {
+			list-style-type: none;
+			margin-right: 30px;
+			margin-top: 4px;
+		}ul.navegacao a{
+			display: block;
+
+			text-decoration: none;
+			color: black;
+			
+			}ul.navegacao a:hover{
+
+				 color: white;
+				background-position: right;
+				transition: 0.2s
+				} li{
+					border: 1px solid black;
+				background: url(../imagens/menu.png) no-repeat left top;
+				padding: 4px;
+				/* border: 2px solid red; */
+				width: 85%;
+				height: 25px;
+			} li a{
+				line-height: 35px;
+				text-indent: 30px;
+			}
+	 

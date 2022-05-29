@@ -1,0 +1,12 @@
+body{
+	background: rgb(206,254,140);
+background: linear-gradient(90deg, rgba(206,254,140,1) 0%, rgba(191,255,195,1) 50%, rgba(168,255,172,1) 100%);
+} h1.nome{
+	text-align: center;
+	font-size: 4em;
+} #conteudo{
+	float: right;
+	border: 1px solid #000;
+	height: 400px;
+	width: 200px;
+}

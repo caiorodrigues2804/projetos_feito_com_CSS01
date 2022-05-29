@@ -1,0 +1,90 @@
+body{
+	background-attachment: fixed;
+	background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+} 
+/*FONTES*/
+ *{
+ font-family: arial, Helvetica, "Trebuchet MS", "Times New Roman", sans-serif;
+}
+/* COPIE E COLE */
+ @font-face {
+    font-family: 'Bebas-Regular';
+    src: url('../fonte/Bebas-Regular.woff2') format('woff2'),
+        url('../fonte/Bebas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* FIM DA FONTES */
+
+/* INCIO DO CONTAINER*/
+#container{
+	border: 2px solid #fff;
+	margin: 30px;
+} 
+/* FIM DO CONTAINER*/
+ h1.nome{
+ 	color: #fff;
+ 	font-family: "Bebas-Regular";
+ 	text-align: center;
+ 	font-size: 4em;
+ }
+/* INCIO DA MARCA*/
+  #marca{
+ 	border: 2px solid #fff;
+ }
+ /* FIM DA MARCA*/
+ .navegacao02{
+ 	/*margin:4px;*/
+ 	/*border: 1px solid #fff;*/
+
+
+ 	width: 200px;
+
+ 	/*height: 00px;*/
+ }
+ .navegacao02 ul#navegacao{
+	margin: 10px;
+ 	padding: 0px;
+ 	list-style-type: none;
+
+ } .navegacao02 ul#navegacao a{
+
+ 	font-size: 1.5em;
+ 	text-decoration: none;
+ 	color: #fff;
+ } .navegacao02 ul#navegacao li a{
+		 border: 1px solid #fff;
+		 display: block;
+ } .navegacao02 ul#navegacao li a:hover{
+ 	border: 1px solid black;
+ 	background: white;
+ 	color:black;
+ 	transition: 0.2s;
+ }
+ /* CONTEUDO */
+  #conteudo{
+  	border: 1px solid #fff;
+  	height: 300px;
+  	width: 200px;
+  	float: right;
+  	margin-left: 10px;
+  	margin: 5px;
+  }
+  /* LATERAL */
+   #conteudo02{
+  	border: 1px solid #fff;
+  	height: 500px;
+  	width: 780px;
+  	float: right;
+
+  } 
+  /*rodape*/
+     #rodape{
+  	border: 1px solid #fff;
+   clear: both;
+
+  } 

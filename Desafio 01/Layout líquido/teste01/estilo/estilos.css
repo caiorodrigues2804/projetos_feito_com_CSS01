@@ -1,0 +1,13 @@
+ body{
+ 	 background-color: grey;
+ } h1{
+ 	color: black;
+ 	 font-size:20px;
+ } *{
+ 	font-family: arial,Helvetica, sans-serif;
+ }#caioba{
+ 	min-width: 700px;
+ 	max-width: 1000px;
+ 	padding: 1%;
+ 	border: 2px solid red;
+ }
